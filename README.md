@@ -18,7 +18,7 @@ It is so easy to get this up and running.
 
 __NOTE:__ Path must be in quotes, must start with `/` and must end with `?ce` 
 
-__FURTHER NOTE:__ Copyparty does not like when you give an absolute path to the `--css-browser` argument. You would be better off storing the css in a path mounted in copyparty!
+__FURTHER NOTE:__ Copyparty does not like when you give an absolute path to the `--css-browser` argument. You would be better off storing the css in a path mounted in copyparty! Make sure it is stored in a mount available to everyone on your server. There has to be a better way...
 
 
 ### Change Themes
