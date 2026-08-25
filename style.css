@@ -1,0 +1,549 @@
+/* --- 1. EVERFOREST DARK --- 
+
+:root, html, body {
+	--bg-color: #272e33 !important;
+	--accent-color: #343f44 !important;
+	--text-color: #d3c6aa !important;
+	--link-color: #7fbbb3 !important;
+	--link-hover-color: #e67e80 !important;
+	--table-alt-bg: #2e383c !important;
+	--table-active-bg: #475258 !important;
+	--table-hover-bg: #414b50 !important;
+	--hilite-1: #859289 !important;
+	--srv-1: var(--text-color) !important;
+}
+*/
+/* --- 2. GRUVBOX DARK  ---*/ 
+/* :root, html, body { */
+/*     --bg-color: #282828 !important; */
+/*     --accent-color: #3c3836 !important; */
+/*     --text-color: #ebdbb2 !important; */
+/*     --link-color: #83a598 !important; */
+/*     --link-hover-color: #fe8019 !important; */
+/*     --table-alt-bg: #32302f !important; */
+/*     --table-active-bg: #504945 !important; */
+/*     --table-hover-bg: #665c54 !important; */
+/*     --hilite-1: #b8bb26 !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+
+ /* --- 3. CATPPUCCIN MOCHA  ---  */
+
+/* :root, html, body { */
+/* 	--bg-color: #1e1e2e !important; */
+/* 	--accent-color: #181825 !important; */
+/* 	--text-color: #cdd6f4 !important; */
+/* 	--link-color: #89b4fa !important; */
+/* 	--link-hover-color: #f38ba8 !important; */
+/* 	--table-alt-bg: #313244 !important; */
+/* 	--table-active-bg: #45475a !important; */
+/* 	--table-hover-bg: #585b70 !important; */
+/* 	--hilite-1: #a6e3a1 !important; */
+/* 	--srv-1: var(--text-color) !important; */
+/* } */
+
+ /* --- 4. TOKYONIGHT STORM  ---  */
+/* :root, html, body { */
+/*     --bg-color: #24283b !important; */
+/*     --accent-color: #1f2335 !important; */
+/*     --text-color: #a9b1d6 !important; */
+/*     --link-color: #7aa2f7 !important; */
+/*     --link-hover-color: #f7768e !important; */
+/*     --table-alt-bg: #292e42 !important; */
+/*     --table-active-bg: #3b4261 !important; */
+/*     --table-hover-bg: #414868 !important; */
+/*     --hilite-1: #9ece6a !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+
+ /* --- 5. ROSE PINE DARK  ---  */
+/* :root, html, body { */
+/*     --bg-color: #191724 !important; */
+/*     --accent-color: #1f1d2e !important; */
+/*     --text-color: #e0def4 !important; */
+/*     --link-color: #9ccfd8 !important; */
+/*     --link-hover-color: #ebbcba !important; */
+/*     --table-alt-bg: #26233a !important; */
+/*     --table-active-bg: #403d52 !important; */
+/*     --table-hover-bg: #555169 !important; */
+/*     --hilite-1: #f6c177 !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+
+ /* --- 6. NORD  ---  */
+/* :root, html, body { */
+/*     --bg-color: #2e3440 !important; */
+/*     --accent-color: #3b4252 !important; */
+/*     --text-color: #d8dee9 !important; */
+/*     --link-color: #88c0d0 !important; */
+/*     --link-hover-color: #bf616a !important; */
+/*     --table-alt-bg: #434c5e !important; */
+/*     --table-active-bg: #4c566a !important; */
+/*     --table-hover-bg: #5e81ac !important; */
+/*     --hilite-1: #a3be8c !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+
+ /* --- 7. ONE DARK  ---  */
+/* :root, html, body { */
+/*     --bg-color: #282c34 !important; */
+/*     --accent-color: #21252b !important; */
+/*     --text-color: #abb2bf !important; */
+/*     --link-color: #61afef !important; */
+/*     --link-hover-color: #e06c75 !important; */
+/*     --table-alt-bg: #2c313c !important; */
+/*     --table-active-bg: #3e4452 !important; */
+/*     --table-hover-bg: #545862 !important; */
+/*     --hilite-1: #98c379 !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+ 
+/* --- 8. DRACULA  ---  */
+/* :root, html, body { */
+/*     --bg-color: #282a36 !important; */
+/*     --accent-color: #21222c !important; */
+/*     --text-color: #f8f8f2 !important; */
+/*     --link-color: #bd93f9 !important; */
+/*     --link-hover-color: #ff79c6 !important; */
+/*     --table-alt-bg: #343746 !important; */
+/*     --table-active-bg: #44475a !important; */
+/*     --table-hover-bg: #6272a4 !important; */
+/*     --hilite-1: #50fa7b !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+
+ /* --- 9. MONOKAI PRO  ---  */
+/* :root, html, body { */
+/*     --bg-color: #2d2a2e !important; */
+/*     --accent-color: #221f22 !important; */
+/*     --text-color: #fcfcfa !important; */
+/*     --link-color: #78dce8 !important; */
+/*     --link-hover-color: #ff6188 !important; */
+/*     --table-alt-bg: #403e41 !important; */
+/*     --table-active-bg: #5b595c !important; */
+/*     --table-hover-bg: #727072 !important; */
+/*     --hilite-1: #a9dc76 !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
+
+
+ /* --- 10. EVERFOREST LIGHT  ---  */
+:root, html, body {
+    --bg-color: #fdf6e3 !important;
+    --accent-color: #e0dcce !important;
+    --text-color: #5c6a72 !important;
+    --link-color: #3a94c5 !important;
+    --link-hover-color: #f57d26 !important;
+    --table-alt-bg: #f4eedb !important;
+    --table-active-bg: #dfd6b1 !important;
+    --table-hover-bg: #eae4ca !important;
+    --hilite-1: #8fa355 !important;
+    --srv-1: var(--text-color) !important;
+}
+
+body, html {
+		color-scheme: light !important;
+    font-family: monospace;
+		font-size: 12px;
+    background-color: var(--bg-color);
+		color: var(--text-color);
+		text-shadow: none !important;
+}
+
+a {
+	color: var(--link-color);
+}
+
+a:hover {
+	color: var(--link-hover-color);
+}
+
+
+#srv_info, #acc_info {
+	color: var(--text-color);
+	background-color: var(--bg-color);
+}
+
+#srv_info2 span {
+	color: var(--text-color);
+}
+
+#ops,
+#ops a,
+#path,
+#wtoggle {
+	background-color: var(--bg-color) !important;
+	border: 0 !important;
+	box-shadow: #ffffff 0px 0px 0px 0px !important;
+	text-shadow: none !important;
+}
+
+#ops::after {
+    content: "" !important;
+    display: block !important;
+    width: 100% !important;
+    border-top: 1px solid #e4e4e7 !important;
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+}
+
+#opa_del,
+#opa_x,
+#opa_up, 
+#opa_bup, 
+#opa_mkd,
+#opa_cfg,
+#opa_md,
+#opa_msg, 
+#opa_auc,
+#entree,
+#detree,
+#path i {
+    font-size: 0 !important;
+    text-decoration: none !important;
+}
+
+#opa_del::after,
+#opa_up::after, 
+#opa_bup::after, 
+#opa_mkd::after,
+#opa_cfg::after,
+#opa_md::after,
+#opa_msg::after, 
+#opa_auc::after, 
+#detree::after,
+#entree::after {
+		font-size: 12px !important;
+		color: var(--link-color);
+		font-family: monospace;
+}
+
+#opa_del:hover::after,
+#opa_up:hover::after, 
+#opa_bup:hover::after, 
+#opa_mkd:hover::after,
+#opa_cfg:hover::after,
+#opa_md:hover::after,
+#opa_msg:hover::after, 
+#opa_auc:hover::after,
+#detree:hover::after,
+#entree:hover::after {
+		color: var(--link-hover-color);
+}
+
+#opa_del::after {
+    content: "delete | ";
+}
+
+#opa_up::after {
+    content: "upload | ";
+}
+
+#opa_bup::after {
+    content: "basic upload | ";
+}
+
+#opa_mkd::after {
+    content: "mkdir | ";
+}
+
+#opa_md::after {
+    content: "new file | ";
+}
+
+#opa_msg::after {
+    content: "msg server | ";
+}
+
+#opa_auc::after {
+    content: "audio";
+}
+
+#opa_cfg::after {
+    content: " | settings";
+}
+
+#entree::after {
+    content: "show tree";
+}
+
+#detree::after {
+    content: "hide tree";
+}
+
+#path {
+	margin-top: 0px;
+}
+
+#files thead,
+#files thead tr th{
+    background-color: var(--bg-color);
+    background-image: none !important;
+		text-shadow: none !important;
+		font-size: 14px;
+}
+
+#files tr td {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+		text-shadow: none !important;
+		font-size: 14px;
+		color: var(--text-color) !important;
+}
+
+#files tr td a {
+		color: var(--link-color) !important;
+}
+
+#files tbody tr:nth-child(odd) td {
+    background-color: var(--bg-color);
+    background-image: none !important;
+}
+
+
+#files tbody tr:nth-child(even) td {
+    background-color: var(--table-alt-bg) !important;
+    background-image: none !important;
+}
+
+
+#files tbody tr:hover td {
+    background-color: var(--table-hover-bg) !important;
+    background-image: none !important;
+}
+
+#files tbody tr.act td,
+#files tbody tr.sel td {
+    background-color: var(--table-active-bg) !important;
+    background-image: none !important;
+}
+
+#files tbody tr.act td *,
+#files tbody tr.sel td *,
+#files tbody tr.act td a,
+#files tbody tr.sel td a,
+#files tbody tr.act td span,
+#files tbody tr.sel td span {
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+
+#files tbody tr.act:hover td,
+#files tbody tr.sel:hover td {
+    background-color: var(--table-active-bg) !important;
+}
+
+
+#files tbody tr td a:hover,
+#files tbody tr td a:hover *,
+#files tbody tr td span:hover,
+#files tbody tr td .t:hover,
+#files tbody tr td .h:hover {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: var(--link-hover-color) !important;
+    text-decoration: underline !important;
+}
+
+#wfp, #rep1 {
+	font-size: 12px;
+	text-shadow: none !important;
+	font-weight: 400;
+}
+
+#path a {
+	font-size: 12px;
+}
+
+#path a:hover {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: var(--link-hover-color) !important;
+    text-decoration: underline !important;
+}
+
+
+#widget .act,
+#widget .act *,
+#widget div.act,
+#widget button.act,
+#widget a.act {
+    background-color: var(--bg-color) !important;
+    box-shadow: none !important;
+    color: var(--text-color) !important;
+    text-shadow: none !important;
+}
+
+
+#widget *:focus,
+#widget *:focus-visible,
+#widget *:active {
+    outline: none !important;
+    outline-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+#widget div:hover,
+#widget button:hover,
+#widget a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+#tt,
+div#tt,
+body #tt {
+    background-color: var(--accent-color) !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0px !important;
+    padding: 4px 8px !important;
+}
+
+.show {
+    color: var(--text-color) !important;
+}
+
+.opbox,
+.opview {
+	color: var(--text-color) !important;
+	background-color: var(--bg-color) !important;
+	border: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#u2etat, #u2etas, #u2cards {
+	background-color: var(--bg-color) !important;
+    background-image: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#u2cards a, #u2cards span{
+	background-color: var(--bg-color) !important;
+	background-image: none !important;
+	color: var(--text-color) !important;
+}
+
+#u2cards .act {
+	background-color: var(--bg-color) !important;
+	background-image: none !important;
+	box-shadow: none !important;
+	border: solid black 1px !important;
+	outline-color: var(--bg-color);
+}
+
+#u2err {
+	color: var(--text-color) !important;
+}
+
+#op_bup > div > label {
+	color: var(--text-color) !important;
+}
+
+#rcm {
+	background-color: var(--accent-color) !important;
+	background-image: none !important;
+	box-shadow: none !important;
+	border: solid black 1px !important;
+	outline-color: var(--bg-color);
+}
+
+#rcm > a:hover {
+	background-color: var(--accent-color) !important;
+	background-image: none !important;
+}
+
+
+#tree {
+	background-color: var(--bg-color) !important;
+	background-image: none !important;
+	box-shadow: none !important;
+	border-right: solid black 1px;
+	border-top: 0px !important;
+	border-radius: 0px !important;
+}
+
+#tree li {
+	border: none !important;
+}
+
+#treeh {
+	background-color: var(--bg-color) !important;
+	background-image: none !important;
+	border-radius: 0px;
+}
+
+#treeul li a, .hl {
+	background-color: var(--background-color) !important;
+}
+
+.hl {
+	color: var(--text-color) !important;
+}
+
+#treeul a:hover{
+	color: var(--link-hover-color) !important;
+}
+
+#treeh a {
+	color: var(--link-color) !important;
+}
+
+#treeh a:hover {
+	color: var(--link-hover-color) !important;
+	background-color: var(--accent-color) !important;
+}
+
+#op_player h3, #op_cfg h3 {
+	color: var(--text-color) !important;
+}
+
+.tgl {
+	color: var(--text-color) !important;
+	background-color: var(--table-alt-bg) !important;
+}
+
+.tgl:hover {
+	background-color: var(--hilite-1) !important;
+}
+
+.on {
+	background-color: var(--hilite-1) !important;
+	color: var(--bg-color) !important;
+}
+
+.drc_v, .eq_gain, .ssconf_v, #pb_tint, #au_uncache, #icot, #icof, #icob, input, #thumbs, select > option{
+	color: var(--text-color) !important;
+}
+
+select {
+	background-color: white !important;
+	color: black !important;
+}
+
+.pb_tint {
+
+}
+
+#logue h1,
+#files h2,
+#files h3,
+#files h4,
+#files h5,
+#files h6,
+.md_header,
+.markdown-header {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: var(--text-color) !important;
+    background: transparent !important;
+    border: none !important;
+    text-shadow: none !important;
+}
