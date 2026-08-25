@@ -1,4 +1,4 @@
-/* --- 1. EVERFOREST DARK --- 
+ /* --- 1. EVERFOREST DARK ---  */
 
 :root, html, body {
 	--bg-color: #272e33 !important;
@@ -12,7 +12,7 @@
 	--hilite-1: #859289 !important;
 	--srv-1: var(--text-color) !important;
 }
-*/
+
 /* --- 2. GRUVBOX DARK  ---*/ 
 /* :root, html, body { */
 /*     --bg-color: #282828 !important; */
@@ -27,8 +27,7 @@
 /*     --srv-1: var(--text-color) !important; */
 /* } */
 
- /* --- 3. CATPPUCCIN MOCHA  ---  */
-
+/* --- 3. CATPPUCCIN MOCHA  ---  */
 /* :root, html, body { */
 /* 	--bg-color: #1e1e2e !important; */
 /* 	--accent-color: #181825 !important; */
@@ -42,7 +41,7 @@
 /* 	--srv-1: var(--text-color) !important; */
 /* } */
 
- /* --- 4. TOKYONIGHT STORM  ---  */
+/* --- 4. TOKYONIGHT STORM  ---  */
 /* :root, html, body { */
 /*     --bg-color: #24283b !important; */
 /*     --accent-color: #1f2335 !important; */
@@ -70,7 +69,7 @@
 /*     --srv-1: var(--text-color) !important; */
 /* } */
 
- /* --- 6. NORD  ---  */
+/* --- 6. NORD  ---  */
 /* :root, html, body { */
 /*     --bg-color: #2e3440 !important; */
 /*     --accent-color: #3b4252 !important; */
@@ -84,7 +83,7 @@
 /*     --srv-1: var(--text-color) !important; */
 /* } */
 
- /* --- 7. ONE DARK  ---  */
+/* --- 7. ONE DARK  ---  */
 /* :root, html, body { */
 /*     --bg-color: #282c34 !important; */
 /*     --accent-color: #21252b !important; */
@@ -112,7 +111,7 @@
 /*     --srv-1: var(--text-color) !important; */
 /* } */
 
- /* --- 9. MONOKAI PRO  ---  */
+/* --- 9. MONOKAI PRO  ---  */
 /* :root, html, body { */
 /*     --bg-color: #2d2a2e !important; */
 /*     --accent-color: #221f22 !important; */
@@ -127,19 +126,19 @@
 /* } */
 
 
- /* --- 10. EVERFOREST LIGHT  ---  */
-:root, html, body {
-    --bg-color: #fdf6e3 !important;
-    --accent-color: #e0dcce !important;
-    --text-color: #5c6a72 !important;
-    --link-color: #3a94c5 !important;
-    --link-hover-color: #f57d26 !important;
-    --table-alt-bg: #f4eedb !important;
-    --table-active-bg: #dfd6b1 !important;
-    --table-hover-bg: #eae4ca !important;
-    --hilite-1: #8fa355 !important;
-    --srv-1: var(--text-color) !important;
-}
+/* --- 10. EVERFOREST LIGHT  ---  */
+/* :root, html, body { */
+/*     --bg-color: #fdf6e3 !important; */
+/*     --accent-color: #e0dcce !important; */
+/*     --text-color: #5c6a72 !important; */
+/*     --link-color: #3a94c5 !important; */
+/*     --link-hover-color: #f57d26 !important; */
+/*     --table-alt-bg: #f4eedb !important; */
+/*     --table-active-bg: #dfd6b1 !important; */
+/*     --table-hover-bg: #eae4ca !important; */
+/*     --hilite-1: #8fa355 !important; */
+/*     --srv-1: var(--text-color) !important; */
+/* } */
 
 body, html {
 		color-scheme: light !important;

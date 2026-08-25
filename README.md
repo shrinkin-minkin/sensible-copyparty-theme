@@ -20,6 +20,11 @@ __NOTE:__ Path must be in quotes, must start with `/` and must end with `?ce`
 
 example: `copyparty --css-browser "/home/geraldine/sensible-copyparty-theme/style.css?ce"`
 
+### Change Themes
+I wanted this as easy as possible. Just go into style.css, uncomment the theme that you want to use, comment out the other themes.
+
+Feel free to add whatever theme you want. Create a pull request!
+
 ### TODO:
 - [ ] Update markdown to look normal
 - [ ] Reskin sub-pages
