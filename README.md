@@ -38,8 +38,21 @@ Feel free to add whatever theme you want. Create a pull request!
 | `--table-active-bg` | `#475258` | Background color for selected or actively clicked file rows. |
 | `--hilite-1` | `#859289` | Color used for activated UI toggle states and buttons. |
 | `--srv-1` | `var(--text-color)` | Legacy fallback tracker variable mapping to the main text color. |
-| `--directory-color` | `red` | Explicit font color forced on directory folder paths ending with `/`. |
-| `--directory-hover-color` | `yellow` | Hover font color target forced on directory folder paths ending with `/`. |
+| `--directory-color` | `var(--link-color)` | Explicit font color forced on directory folder paths ending with `/`. |
+| `--directory-hover-color` | `var(--link-hover-color)` | Hover font color target forced on directory folder paths ending with `/`. |
+
+
+#### Currently Available Themes:
+- EVERFOREST DARK
+- GRUVBOX DARK
+- CATPPUCCIN MOCHA
+- TOKYONIGHT STORM
+- ROSEPINE DARK
+- NORD
+- ONE DARK
+- DRACULA
+- MONOKAI PRO
+- EVERFOREST LIGHT
 
 ### Markdown Example:
 
