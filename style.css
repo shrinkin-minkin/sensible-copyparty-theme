@@ -567,6 +567,7 @@ select {
 	font-size: 2rem !important;
 	margin: 0px !important;
 	color: var(--text-color) !important;
+	padding: 0px !important;
 }
 
 .mdo h3, .logue h3 {
@@ -619,3 +620,46 @@ select {
   border-radius: 0 !important;
   text-decoration: none !important;
 }
+
+.mdo strong, .logue strong {
+	font-weight: 800 !important;
+	color: var(--text-color) !important;
+}
+
+.mdo em, .logue em {
+	color: var(--text-color) !important;
+	text-decoration: none !important;
+	border: none !important;
+	font-style: italic !important;
+}
+
+.mdo pre, .logue pre {
+  background-color: #1e1e2e !important;
+  border: 1px solid #313244 !important;
+  border-radius: 6px !important;
+  padding: 1rem !important;
+  margin: 1.2rem 0 !important;
+  overflow-x: auto !important;
+}
+
+
+.mdo pre code, .logue pre code {
+  font-family: var(--font-mono), 'Courier New', Courier, monospace !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  color: var(--text-color) !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  white-space: pre !important;
+  word-break: normal !important;
+}
+
+.mdo a, .logue a {
+	color: var(--link-color) !important;
+}
+
+.mdo a:hover, .logue a:hover {
+	color: var(--link-hover-color) !important;
+}
+

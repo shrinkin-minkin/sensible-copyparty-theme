@@ -26,8 +26,14 @@ I wanted this as easy as possible. Just go into style.css, uncomment the theme t
 
 Feel free to add whatever theme you want. Create a pull request!
 
+### Markdown Example:
+
+![md](assets/markdown.png)
+
+
 ### TODO:
-- [ ] Update markdown to look normal
+- [x] Update markdown on main page to look normal
+- [ ] update markdown to look good on subpages
 - [ ] Reskin sub-pages
 - [ ] eradicate remaining emojis
 
