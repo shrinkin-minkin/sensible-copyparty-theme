@@ -26,6 +26,21 @@ I wanted this as easy as possible. Just go into style.css, uncomment the theme t
 
 Feel free to add whatever theme you want. Create a pull request!
 
+| Variable | Default Value | Description |
+| :--- | :--- | :--- |
+| `--bg-color` | `#272e33` | Primary application background . |
+| `--accent-color` | `#343f44` | Background for tooltips, context menus, and header hovers. |
+| `--text-color` | `#d3c6aa` | Primary typography color . |
+| `--link-color` | `#7fbbb3` | Default color for interactive file links and text buttons . |
+| `--link-hover-color` | `#e67e80` | Hover color state for links and control action items . |
+| `--table-alt-bg` | `#2e383c` | Background color for alternating zebra rows in the file browser window. |
+| `--table-hover-bg` | `#414b50` | Background color highlight when hovering over a file row. |
+| `--table-active-bg` | `#475258` | Background color for selected or actively clicked file rows. |
+| `--hilite-1` | `#859289` | Color used for activated UI toggle states and buttons. |
+| `--srv-1` | `var(--text-color)` | Legacy fallback tracker variable mapping to the main text color. |
+| `--directory-color` | `red` | Explicit font color forced on directory folder paths ending with `/`. |
+| `--directory-hover-color` | `yellow` | Hover font color target forced on directory folder paths ending with `/`. |
+
 ### Markdown Example:
 
 ![md](assets/markdown.png)

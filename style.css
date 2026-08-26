@@ -11,6 +11,8 @@
 	--table-hover-bg: #414b50 !important;
 	--hilite-1: #859289 !important;
 	--srv-1: var(--text-color) !important;
+	--directory-color: var(--link-color) !important;
+	--directory-hover-color: var(--link-hover-color) !important;
 }
 
 /* --- 2. GRUVBOX DARK  ---*/ 
@@ -293,6 +295,16 @@ a:hover {
 
 #files tr td a {
 		color: var(--link-color) !important;
+}
+
+#files tr td a[href$="/"] {
+		color: var(--directory-color) !important;
+		font-weight: bold;
+}
+
+#files tr td a[href$="/"]:hover {
+		color: var(--directory-hover-color) !important;
+		font-weight: bold;
 }
 
 #files tbody tr:nth-child(odd) td {
